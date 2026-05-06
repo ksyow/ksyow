@@ -92,10 +92,13 @@ h2 {
     color: #555;
 }
 
-#grants {
+
+
+.section-container {
     max-width: 900px;
     margin: auto;
 }
+
 
 .grant {
     background: #f9f9f9;
@@ -108,4 +111,20 @@ h2 {
 .grant p {
     margin: 0;
     line-height: 1.6;
+}
+
+
+#teaching {
+    max-width: 900px;
+    margin: auto;
+}
+
+#teaching li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.course-meta {
+    color: #555;
+    font-size: 0.95em;
 }
