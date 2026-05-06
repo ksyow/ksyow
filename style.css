@@ -1,0 +1,111 @@
+:root {
+    --primary: #1a2a3a;
+    --accent: #2980b9;
+    --bg: #f5f7fa;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: var(--bg);
+    color: #2c3e50;
+}
+
+/* NAV */
+nav {
+    background: var(--primary);
+    padding: 12px 0;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: #ecf0f1;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    background: white;
+    padding: 40px 0;
+}
+.hero img {
+    width: 180px;
+    border-radius: 20%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    nav .container {
+        flex-direction: column;
+    }
+}
+
+
+
+.links {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.links a {
+    background: #2980b9;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.links a:hover {
+    background: #1f5f8a;
+}
+
+.cite {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #555;
+}
+
+#grants {
+    max-width: 900px;
+    margin: auto;
+}
+
+.grant {
+    background: #f9f9f9;
+    border-left: 4px solid #2c3e50;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.grant p {
+    margin: 0;
+    line-height: 1.6;
+}
