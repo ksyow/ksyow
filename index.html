@@ -85,5 +85,40 @@
     2011–2013: Senior Executive, Public Bank Berhad, Malaysia
     </p>
 
+
 </body>
+
+
+<footer style="text-align: right; margin-top: 30px;">
+  <hr>
+  <p id="last-updated" style="font-size:14px; color:gray;"></p>
+</footer>
+
+<script>
+  const lastModified = new Date(document.lastModified);
+
+  document.getElementById("last-updated").innerHTML =
+    "Last updated: " +
+    lastModified.toLocaleDateString('en-US', {
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric'
+    });
+</script>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZF60KJB861');
+</script>
+
+
+
 </html>
